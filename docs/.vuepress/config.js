@@ -2,11 +2,11 @@ module.exports = {
   title: 'r2coding',
   description: 'build your dream',
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
-  plugins: ['@vuepress/back-to-top', '@vuepress/last-updated'],
+  plugins: ['@vuepress/back-to-top'],
   themeConfig: {
     logo: '/logo.png',
     lastUpdated: 'Last Updated',
-    // smoothScroll: true,
+    smoothScroll: true,
     nav: [
       { text: 'Home', link: '/' },
       //   { text: 'Guide', link: '/guide/' },
